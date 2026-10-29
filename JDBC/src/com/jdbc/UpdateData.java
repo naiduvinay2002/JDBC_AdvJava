@@ -13,7 +13,7 @@ public class UpdateData {
 		String user="root";
 		String password="vinay";
 		
-		String query="update student set age=25 where id=101";
+		String query="update student set name= 'nehmiya' where id=107";
 		
 		try {
 			Connection con=DriverManager.getConnection(URL,user,password);
